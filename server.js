@@ -5,8 +5,10 @@
  
 var express = require('express');
 var app = express();
+const bcrypt = require('bcrypt');
 var fs = require('fs');
 var path = require('path');
+
 
 app.use(function(req, res, next) {
   res.set({
