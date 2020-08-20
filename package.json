@@ -9,7 +9,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "helmet": "^3.21.2",
-    "bcrypt": "^3.0.7"
+    "bcrypt": "^5.0.0"
   },
   "engines": {
     "node": "4.4.5"
